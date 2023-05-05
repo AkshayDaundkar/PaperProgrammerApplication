@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+   <!-- <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        < allowed the dark mode using system mode update -->
+
+       <!-- <item name="android:forceDarkAllowed" tools:ignore="NewApi" >true</item>
+        < Customize your theme here.
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style> -->
+
+<!--this for the light mode enabling the change in the color while light mode is on -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+
+        <item name="textColor">#000000</item>
+        <item name="metaTextColor">#606060</item>
+        <item name="bgColor">#ffffff</item>
+        <item name="mainBgColor">#182360</item>
+
+    </style>
+<!--this is the dark theme for enabling the dark mode the changes in the color shown while dark mode is switches on -->
+    <style name="DarkTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="textColor">#ffffff</item>
+        <item name="metaTextColor">#aeaeae</item>
+        <item name="bgColor">#000000</item>
+        <item name="mainBgColor">#182360</item>
+    </style>
+
+</resources>

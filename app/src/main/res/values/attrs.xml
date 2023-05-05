@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--this all is done for the dark mode switching the format of the color from light to the dark distinctly-->
+    <attr name="bgColor" format="color"/>
+    <attr name="textColor" format="color"/>
+    <attr name="metaTextColor" format="color"/>
+    <attr name="mainBgColor" format="color"/>
+</resources>
